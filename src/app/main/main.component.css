@@ -1,0 +1,26 @@
+.column {
+    background-color: #33383c;
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    background-color: #33383c;
+    content: "";
+    display: table;
+    clear: both;
+  }
+  h2,p{
+    color: #FFF; 
+  }
+ 
+.well
+{
+    background-color: #33383c;  
+}
+a {
+    color:  #33383c; 
+  }
